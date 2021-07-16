@@ -1714,7 +1714,7 @@ overflow-y:auto;
 	font-size: 16px;
 	font-weight: 600;
 	display: block;
-	color: #333333;
+	color: #15499b;
 	text-transform: uppercase;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -1729,7 +1729,7 @@ overflow-y:auto;
 }
 
 .nav-item .nav-menu li:hover>a {
-	background-color: #252525;
+	background-color: #15499b;
 	color: #FFF;
 }
 
@@ -1744,7 +1744,7 @@ overflow-y:auto;
 	top: 82px;
 	width: 200px;
 	z-index: 99;
-	background: #252525;
+	background: #15499b;
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transition: all 0.3s;
@@ -5546,7 +5546,7 @@ overflow-y:auto;
 	text-align: left;
 	position: absolute;
 	left: 10px;
-	top: -60px;
+	top: -70px;
 	z-index: 1001;
 	}
 	.inner-header .nav-right {
