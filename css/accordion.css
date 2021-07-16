@@ -1,0 +1,86 @@
+
+#container {
+  max-width: 1000px;
+  margin: 150px auto;
+  text-align: center;
+  padding: 10px;
+}
+
+header h1 { font-size: 26px; }
+
+#accordion {
+  clear: both;
+  float: left;
+  margin-top: 20px;
+}
+
+#accordion section {
+	text-align: left;
+	width: 100%;
+	min-width:380px;
+	max-width:380px;
+}
+
+#accordion section h1 {
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 0px;
+	background-color: #ececec;
+	padding: 10px;
+	color: #333;
+	margin-bottom: 5px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #C0392B;
+	border-right-color: #C0392B;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #C0392B;
+}
+
+#accordion section p {
+  display: none;
+  padding-left: 10px;
+}
+
+.fulljustify { text-align: justify; }
+
+.fulljustify:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+section h1 span {
+  float: right;
+  display: block;
+  position: relative;
+}
+
+section h1 span img {
+  margin-top: 2px;
+  margin-right: 10px;
+}
+
+section h1 span img.open {
+	float: right;
+	position: absolute;
+	clip: rect(0px,15px,7px,0px);
+	right: 0px;
+	margin-top: 9px;
+	z-index: 888;
+}
+
+section h1 span img.closed {
+  float: right;
+  position: absolute;
+  clip: rect(8px,15px,15px,0px);
+  right: 0px;
+  margin-top: 2px;
+  z-index: 888;
+}
