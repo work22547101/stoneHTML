@@ -748,7 +748,7 @@ ol {
 }
 
 .scroll{
-	height: 250px;
+	height: 160px;
 	overflow: scroll;
 	overflow-x: hidden;
 }
@@ -1721,7 +1721,7 @@ overflow-y:auto;
 	font-size: 16px;
 	font-weight: 600;
 	display: block;
-	color: #15499b;
+	color: #194578;
 	text-transform: uppercase;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -1736,7 +1736,7 @@ overflow-y:auto;
 }
 
 .nav-item .nav-menu li:hover>a {
-	background-color: #15499b;
+	background-color: #194578;
 	color: #FFF;
 }
 
@@ -1749,9 +1749,9 @@ overflow-y:auto;
 .nav-item .nav-menu li .dropdown {
 	position: absolute;
 	top: 82px;
-	width: 200px;
+	width: 150px;
 	z-index: 99;
-	background: #15499b;
+	background: #194578;
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transition: all 0.3s;
