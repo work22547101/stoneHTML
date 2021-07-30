@@ -165,6 +165,7 @@ p {
 img {
 	max-width: 100%;
 	width: 100%;
+	object-fit: cover;
 }
 
 .h-line{
@@ -1736,8 +1737,8 @@ overflow-y:auto;
 }
 
 .nav-item .nav-menu li:hover>a {
-	background-color: #194578;
-	color: #FFF;
+	background-color: #fff;
+	color: #333;
 }
 
 .nav-item .nav-menu li:hover .dropdown {
@@ -1751,13 +1752,13 @@ overflow-y:auto;
 	top: 82px;
 	width: 150px;
 	z-index: 99;
-	background: #194578;
+	background: #fff;
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
-	color: #FFF;
+	color: #333;
 	left: 0px;
 }
 
@@ -1767,14 +1768,14 @@ overflow-y:auto;
 }
 
 .nav-item .nav-menu li .dropdown li:hover>a {
-	background: transparent;
-	color: #e7ab3c;
+	color: #FFFFFF;
+	background-color: #15499b;
 }
 
 .nav-item .nav-menu li .dropdown li a {
 	border-right: 0;
 	text-transform: capitalize;
-	color: #fff;
+	color: #333;
 	text-align: left;
 	padding-top: 13px;
 	padding-right: 10px;
@@ -4252,6 +4253,7 @@ overflow-y:auto;
 }
 
 .blog-sidebar .search-form {
+	border: 1px solid #CCC;
 
 }
 
@@ -5106,15 +5108,29 @@ overflow-y:auto;
 	}
 }
 
+
 @media only screen and (min-width: 1200px) {
 	.container {
 	max-width: 1280px;
 	}
+	.frame {  
+    width:12vw; height:12vw;
+    position: relative;
+}
+	.frames {  
+    width:5vw; height:4vw;
+    position: relative;
+}
+
 }
 
 /* Medium Device: 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.frame {  
+    width:13vw; height:13vw;
+    position: relative;
+}
 	
 	.inner-header .logo {
 	position: absolute;
@@ -5162,7 +5178,17 @@ overflow-y:auto;
 	}
 }
 
+@media only screen and (max-width: 1024px) {
+	.frame {  
+    width:15vw; height:15vw;
+    position: relative;
+}}
+
 @media only screen and (max-width: 991px) {
+	.frame {  
+    width:22vw; height:22vw;
+    position: relative;
+}
 
 .shop-area .pic-area{
 	float: left;
@@ -5731,6 +5757,13 @@ overflow-y:auto;
 	padding-bottom: 5px;
 }	
 }
+
+@media only screen and (max-width: 640px) {
+	.frame {  
+    width:26vw; height:26vw;
+    position: relative;
+}
+
 
 @media only screen and (max-width: 479px) {
 
