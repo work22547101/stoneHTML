@@ -52,6 +52,16 @@ h6 {
     position: relative;
 }
 
+.frame-pic{ width: 450px; height: 300px; } 
+.frame-pic img{ width: 100%; height: 100%; object-fit: cover; } 
+
+.frames {  
+    width:100%; height:100%;
+	max-width:210px;
+	max-height:210px;
+    position: relative;
+}
+
 
 .icon-fixed-top{
 	display: block;
@@ -5116,6 +5126,9 @@ overflow-y:auto;
 	padding-bottom: 16px;
 	padding-left: 15px;
 	}
+	.frame-pic{ width: 450px; height:250px; } 
+.frame-pic img{ width: 100%; height: 100%; object-fit: cover; }
+
 }
 
 
@@ -5123,10 +5136,6 @@ overflow-y:auto;
 	.container {
 	max-width: 1280px;
 	}
-	.frames {  
-    width:5vw; height:4vw;
-    position: relative;
-}
 
 }
 
@@ -5140,7 +5149,16 @@ overflow-y:auto;
 	max-width:210px;
 	max-height:150px;
     position: relative;
+}
+.frames {  
+    width:100%; height:100%;
+	max-width:210px;
+	max-height:150px;
+    position: relative;
 }	
+.frame-pic{ width: 350px; height:200px; } 
+.frame-pic img{ width: 100%; height: 100%; object-fit: cover; }
+
 	.inner-header .logo {
 	position: absolute;
 	z-index: 888;
@@ -5189,6 +5207,8 @@ overflow-y:auto;
 
 
 @media only screen and (max-width: 991px) {
+	.frame-pic{ width: 350px; height:200px; } 
+.frame-pic img{ width: 100%; height: 100%; object-fit: cover; }
 
 .frame {  
     width:100%; height:100%;
@@ -5196,6 +5216,13 @@ overflow-y:auto;
 	max-height:200px;
     position: relative;
 }
+.frames {  
+    width:100%; height:100%;
+	max-width:220px;
+	max-height:200px;
+    position: relative;
+}
+
 .shop-area .pic-area{
 	float: left;
 	width: 40%;
@@ -5765,15 +5792,38 @@ overflow-y:auto;
 }
 
 @media only screen and (max-width: 769px) {
+.frame-pic{ width: 350px; height:200px; } 
+.frame-pic img{ width: 100%; height: 100%; object-fit: cover; }
+
 .frame {  
     width:100%; height:100%;
 	max-width:210px;
 	max-height:160px;
     position: relative;
-}}
+}
+.frames {  
+    width:100%; height:100%;
+	max-width:210px;
+	max-height:160px;
+    position: relative;
+}
+}
+@media only screen and (max-width: 680px) {
+.frame-pic{ width: 300px; height:200px; } 
+.frame-pic img{ width: 100%; height: 100%; object-fit: cover; }
+}
 
 @media only screen and (max-width: 479px) {
+	.frame-pic{ width: 380px; height:200px; } 
+.frame-pic img{ width: 100%; height: 100%; object-fit: cover; }
 .frame {  
+    width:100%; height:100%;
+	max-width:210px;
+	max-height:105px;
+    position: relative;
+}
+
+.frames {  
     width:100%; height:100%;
 	max-width:210px;
 	max-height:105px;
@@ -5879,9 +5929,20 @@ overflow-y:auto;
 	width:100%;
 }
 @media only screen and (max-width: 375px) {
+.frame-pic{ width: 350px; height:200px; } 
+.frame-pic img{ width: 100%; height: 100%; object-fit: cover; }
+
 .frame {  
     width:100%; height:100%;
 	max-width:210px;
 	max-height:95px;
     position: relative;
-}}
+}
+
+.frames {  
+    width:100%; height:100%;
+	max-width:210px;
+	max-height:95px;
+    position: relative;
+}
+}
