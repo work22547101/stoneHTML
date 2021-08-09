@@ -16,7 +16,11 @@
 
 /*  == tab heading */
 .tabs { border: 1px solid #ccc; overflow:hidden; }
-.tabs li{ float:left; }
+.tabs li{
+	float: left;
+	display: inline-block;	
+    list-style-type:none;
+}
 .tabs li a{
 	border-left: 1px solid #ccc;
 	color: #333333;
@@ -50,7 +54,8 @@ a.accordion_tabs.active{ color: #000; border-bottom: 1px solid #ccc;}
 	background: #fff;
 }
 .toggle_display{display:block;}
-.toggle_position{ position:absolute; }
+.toggle_position{
+}
 .toggle_border{ border:1px solid #ccc; border-width: 0 1px 1px 1px; }
 .invert_border{ border-width: 1px 1px 0 1px;}
 
