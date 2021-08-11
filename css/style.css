@@ -906,7 +906,7 @@ overflow-y:auto;
 
 .container-scroll {
 	width: 100%;
-	height: 250px;
+	height: 280px;
 	white-space: nowrap;
 	margin-top: 5px;
 	margin-right: 5px;
@@ -5122,7 +5122,7 @@ overflow-y:auto;
 	padding-bottom: 16px;
 	padding-left: 15px;
 	}
-	.frame-pic{ width: 450px; height:250px; } 
+	.frame-pic{ width: 200px; height:200px; } 
 .frame-pic img{ width: 100%; height: 100%; object-fit: cover; }
 
 }
