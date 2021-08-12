@@ -44,6 +44,19 @@ h6 {
 	font-size: 16px;
 }
 
+/*---0812 控制字數css 使用寬度控制--*/
+.text-ns{white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;}
+	
+/*---0812 控制字數cs 最多兩行限制s--*/
+.text-nss{ display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;}
+
 
 .frame{ width: 250px; height:200px; } 
 .frame img{ width: 100%; height: 100%; object-fit: cover; }
@@ -1731,7 +1744,7 @@ overflow-y:auto;
 }
 
 .nav-item .nav-menu li.active a {
-	background: #e7ab3c;
+	background-color: #e7ab3c;
 }
 
 .nav-item .nav-menu li a {
@@ -1753,7 +1766,6 @@ overflow-y:auto;
 }
 
 .nav-item .nav-menu li:hover>a {
-	background-color: #fff;
 	color: #333;
 }
 
@@ -1766,7 +1778,7 @@ overflow-y:auto;
 .nav-item .nav-menu li .dropdown {
 	position: absolute;
 	top: 82px;
-	width: 150px;
+	width: 200px;
 	z-index: 99;
 	background: #fff;
 	opacity: 0;
