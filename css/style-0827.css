@@ -18,13 +18,31 @@ h6 {
 	font-family: "Muli", sans-serif;
 }
 
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	font-size: 36px;
+}
 
 h3 {
 	font-size: 20px;
-	font-weight: bold;
-	color: #069;
 }
 
+h4 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h6 {
+	font-size: 16px;
+}
 
 /*---0812 控制字數css 使用寬度控制--*/
 .text-ns{white-space: nowrap;
