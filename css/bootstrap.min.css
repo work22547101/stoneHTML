@@ -134,8 +134,9 @@ padding:.5rem .75rem;			margin-left: -1px;
 }.page-link:focus{z-index:3;outline:0;box-shadow:0 0 0 .2rem rgba(0,123,255,.25)}.page-item:first-child .page-link{margin-left:0;border-top-left-radius:.25rem;border-bottom-left-radius:.25rem}.page-item:last-child .page-link{border-top-right-radius:.25rem;border-bottom-right-radius:.25rem}.page-item.active .page-link{
 	z-index: 3;
 	color: #fff;
-	background-color: #333333;
-	border-color: #333333
+	background-color: #CC9900;
+	border-color: #CC9933
+	
 }
 .paginations{
 	display: -ms-flexbox;
