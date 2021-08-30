@@ -950,9 +950,9 @@ overflow-y:auto;
   flex-wrap: nowrap; 
   overflow: auto;
 }
-.flex-item {
+/* .flex-item {
   flex: 0 0 auto;
-}
+} */
 
 /*---------------------
  accordion-menu CSS
